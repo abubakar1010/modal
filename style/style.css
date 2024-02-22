@@ -8,8 +8,9 @@
 body{
     background: url(../forest.jpg);
     background-position: center;
-    block-size: cover;
+    background-size: cover;
     background-repeat: no-repeat;
+    background-position: center;
     height: 100vh;
     position: relative;
 }
@@ -17,7 +18,7 @@ body{
 .openBtn button{
 
     position: absolute;
-    top: 70%;
+    top: 77%;
     left: 10%;
     background: transparent;
     border: 2px solid white;
@@ -26,7 +27,7 @@ body{
     font-weight: 800;
     padding: 12px 24px;
     width: 350px;
-    height: 80px;
+    height: 96px;
     border-radius: 12px;
     box-shadow: 0 0 3px black;
     transition: 1.3s;
@@ -49,12 +50,12 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 330px;
+    width: 380px;
     background-color: white;
-    height: 120px;
+    height: 155px;
     border-radius: 12px;
     font-size: 1.3rem;
-    padding: 20px 34px;
+    padding: 20px 74px 20px 40px;
     animation-name: modal;
     animation-duration: 1.6s;
 }
